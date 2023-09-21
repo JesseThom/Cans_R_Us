@@ -13,13 +13,13 @@ def landing_page():
 def services_page():
     return render_template("services.html")
 
-@app.route('/products')
-def products_page():
-    return render_template("products.html")
+# @app.route('/products')
+# def products_page():
+#     return render_template("products.html")
 
-@app.route('/gallery')
-def gallery_page():
-    return render_template("gallery.html")
+# @app.route('/gallery')
+# def gallery_page():
+#     return render_template("gallery.html")
 
 @app.route('/contact')
 def contact_page():
