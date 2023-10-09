@@ -37,13 +37,15 @@ def submit():
     email_password = 'jtghdrrhtutapygi'
     email_reciever = 'grindboats@gmail.com'#TODO change email might be greg@cansrusLLC.com 
 
-    subject = f'{data["name"]} would like more information'
+    subject = f'{data["first_name"]} {data["last_name"]} would like more information'
     body = f"""
-    {data['message']}
+    {data['comments']}
     
-    Name: {data['name']}
+    Name: {data['first_name']} {data['last_name']}
     Email: {data['email']}
-    Phone Number:{data['phone']}
+    Phone Number: {data['phone']}
+    Delivery Area: {data['area']}
+    Delivery Date: {data['date']}
     """
 
     em = EmailMessage()
@@ -57,7 +59,7 @@ def submit():
     with smtplib.SMTP_SSL('smtp.gmail.com',465,context = context) as smtp:
         smtp.login(email_sender,email_password)
         smtp.sendmail(email_sender,email_reciever,em.as_string())
-        flash("Message sent")
+        flash("MESSAGE SENT! Thank you for your interest in Cans R Us")
 
     return redirect('/contact')
 

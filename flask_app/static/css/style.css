@@ -29,7 +29,20 @@ color: #fff !important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.form {
+    background-color: #F5F5F5;
+}
 
+.btn {
+    background-color: #167e5a;
+    color: white;
+}
+
+.flashes {
+    font-size: large;
+    color: red;
+    list-style-type: none;
+}
 
 .underlineAnimate {
     display: inline-block;
@@ -72,6 +85,9 @@ color: #fff !important;
     .form {
         margin-bottom: 1rem;
     }
+    .btn {
+        width: 30%;
+    }
 }
 
 /* m  */
@@ -89,6 +105,10 @@ color: #fff !important;
     .form {
         margin-bottom: 4rem;
     }
+
+    .btn {
+        width: 30%;
+    }
 }
 
 /* xl  */
@@ -99,6 +119,10 @@ color: #fff !important;
 
     .form {
         margin-bottom: 8rem;
+    }
+
+    .btn {
+        width: 15%;
     }
 }
 
