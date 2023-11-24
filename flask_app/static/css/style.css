@@ -289,8 +289,13 @@ color: #fff !important;
 }
 
 .img_in_row {
-    margin: auto;
+    margin: 0 auto;
     height: 100px;
+}
+
+.img_services {
+    margin: auto;
+    height: 300px;
 }
 
 .imgs_row:hover {
@@ -314,6 +319,9 @@ color: #fff !important;
     .img_in_row_text{
         font-size: 14px;
     }
+    .img_services {
+        height: 300px;
+    }
 }
 
 
@@ -334,6 +342,10 @@ color: #fff !important;
     }
     .img_in_row_text{
         height:40px;
+    }
+    .img_services {
+        height: 200px;
+        margin-bottom: 10px;
     }
 }
 
