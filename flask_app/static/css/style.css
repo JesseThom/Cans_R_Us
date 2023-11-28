@@ -17,12 +17,12 @@ rgb(38,22,126) */
     color: rgb(201, 201, 201);
 }
 .nav-link.active{
-color: #fff !important;
+    color: #fff !important;
 }
 
 .nav-link:hover{
     color: #fff !important;
-    }
+}
 
 .nav-item {
     font-weight: bolder;
@@ -76,12 +76,12 @@ color: #fff !important;
 
 /* xs  */
 @media only screen and (max-width: 425px) {
-
+    
     .footer {
         font-size: .5rem;
         margin-top: 1rem;
     }
-
+    
     .form {
         margin-bottom: 1rem;
     }
@@ -92,20 +92,20 @@ color: #fff !important;
 
 /* m  */
 @media only screen and (min-width: 425px) {
-
+    
 }
 
 /* l  */
 @media only screen and (min-width: 768px) {
-
+    
     .footer {
         margin-top: 11rem;
     }
-
+    
     .form {
         margin-bottom: 4rem;
     }
-
+    
     .btn {
         width: 30%;
     }
@@ -116,11 +116,11 @@ color: #fff !important;
     .footer {
         margin-top: 5.5rem;
     }
-
+    
     .form {
         margin-bottom: 8rem;
     }
-
+    
     .btn {
         width: 15%;
     }
@@ -160,7 +160,7 @@ color: #fff !important;
     text-align: center;
     padding: 10px;
     flex: 1;
-
+    
 }
 
 .header_container {
@@ -204,7 +204,7 @@ color: #fff !important;
 
 .header_img{
     width: 100%;
-    margin: 20px 0px;
+    margin: 35px 0px;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: -1px 17px 12px -7px rgba(0, 0, 0 , 0.5);
@@ -278,7 +278,7 @@ color: #fff !important;
     padding: 20px 2% 40px 2%;
     display: flex;
     justify-content: space-evenly;
-
+    
 }
 
 .imgs_row{
@@ -296,6 +296,8 @@ color: #fff !important;
 .img_services {
     margin: auto;
     height: 300px;
+    box-shadow: -1px 17px 12px -7px rgba(0, 0, 0 , 0.5);
+    
 }
 
 .imgs_row:hover {
@@ -356,6 +358,7 @@ color: #fff !important;
 
 .main_page_content{
     display: flex;
+    margin-top:35px;
 }
 
 .main_side{
@@ -416,21 +419,24 @@ h2{
     cursor: pointer;
     width: 100%;
     /* transition: transform 0.5s ease, box-shadow 0.5s ease; */
-
-/* }
-
-.btn:hover {
-    transform: scale(1.1);
-color: white;
-} */ 
-/*  end services page side buttons ------------------------------------------------ */
-
-
-
-/* services page css ------------------------------------------------------------ */
-.services_page_content{
-    border-bottom: 2px black dotted;
-    margin-bottom: 10px;
-}
-
-/* end services page css ------------------------------------------------------------ */
+    
+    /* }
+    
+    .btn:hover {
+        transform: scale(1.1);
+        color: white;
+    } */ 
+    /*  end services page side buttons ------------------------------------------------ */
+    
+    
+    
+    /* services page css ------------------------------------------------------------ */
+    .services_page_content{
+        border-bottom: 2px black dotted;
+        margin-bottom: 10px;
+    }
+    
+    /* end services page css ------------------------------------------------------------ */
+    .navbar-toggler-icon{
+        filter: brightness(0) invert(1);
+    }
